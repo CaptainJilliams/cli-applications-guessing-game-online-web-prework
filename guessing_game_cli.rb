@@ -33,6 +33,8 @@ if user_input == computer_input
   you_win
 elsif user_input == "exit"
   exit_time
-
+else
+  you_lose(comp_number)
+end
 
 end
