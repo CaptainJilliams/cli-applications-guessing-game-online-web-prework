@@ -31,9 +31,7 @@ computer_input = comp_number
 
 if user_input == computer_input
   you_win
-end
-
-if user_input != computer_input
+else
   you_lose(computer_input)
 end
 
