@@ -30,7 +30,7 @@ user_input = user_number
 user_exit_input = user_number.to_s
 computer_input = comp_number
 
-if user_input.to_s == "exit"
+if user_exit_input == "exit"
   exit_time
 elsif user_input == computer_input
   you_win
