@@ -7,7 +7,7 @@ def prompt_user
 end
 
 def user_number
-  return gets.chomp.to_i
+  return gets.chomp
 end
 
 def you_win
