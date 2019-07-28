@@ -33,6 +33,10 @@ if user_input == computer_input
   you_win
 elsif user_input != computer_input
   you_lose(computer_input)
+elsif user_input == "exit"
+  exit_time
+else
+  puts "Invalid Value."
 end
 
 if user_input == "exit"
