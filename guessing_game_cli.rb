@@ -29,7 +29,7 @@ prompt_user
 user_input = user_number
 computer_input = comp_number
 
-if user_input == computer_input
+if user_input.to_i == computer_input.to_i
   you_win
 else
   you_lose(computer_input)
