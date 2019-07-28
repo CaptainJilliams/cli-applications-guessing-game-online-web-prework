@@ -34,6 +34,7 @@ while user_input != computer_input
   you_lose(computer_input)
   break if user_input == computer_input
   you_win
+end
 
 #if user_input == computer_input
 #  you_win
