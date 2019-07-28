@@ -10,7 +10,8 @@ def user_number
   return gets.chomp
 end
 
-def you_lose()
+def you_lose(correct_num)
+  
 
 #------------------------------------------#
 
