@@ -10,6 +10,8 @@ def user_number
   return gets.chomp
 end
 
+def you_lose()
+
 #------------------------------------------#
 
 def run_guessing_game
