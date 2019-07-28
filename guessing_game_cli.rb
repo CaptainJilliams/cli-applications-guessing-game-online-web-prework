@@ -7,7 +7,7 @@ def prompt_user
 end
 
 def user_number
-  
+  gets.chomp
 end
 
 #------------------------------------------#
