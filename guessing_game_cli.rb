@@ -27,9 +27,9 @@ end
 def run_guessing_game
 prompt_user
 user_input = user_number
-computer_input = comp_number
+#computer_input = comp_number
 
-if user_input == computer_input
+if user_input == rand(6)+1
   you_win
 else
   you_lose(computer_input)
