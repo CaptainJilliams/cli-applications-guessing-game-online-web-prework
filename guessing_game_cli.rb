@@ -7,7 +7,7 @@ def prompt_user
 end
 
 def user_number
-  return gets.chomp
+  return gets.chomp.to_s
 end
 
 def you_win
@@ -27,9 +27,9 @@ end
 def run_guessing_game
 prompt_user
 user_input = user_number
-#computer_input = comp_number
+computer_input = comp_number
 
-if user_input == rand(6)+1
+if user_input == computer_input
   you_win
 else
   you_lose(computer_input)
