@@ -31,10 +31,8 @@ computer_input = comp_number
 
 if user_input == computer_input
   you_win
-elsif user_input != computer_input
-  you_lose(computer_input)
 else
-  puts "Invalid Command."
+  you_lose(computer_input)
 end
 
 if user_input == "exit"
