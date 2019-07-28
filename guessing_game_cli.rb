@@ -31,8 +31,10 @@ computer_input = comp_number
 
 if user_input == computer_input
   you_win
-else
-  you_lose(comp_number)
+end
+
+if user_input !=
+  you_lose(computer_input)
 end
 
 if user_input == "exit"
