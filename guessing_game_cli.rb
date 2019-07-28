@@ -33,7 +33,7 @@ if user_input == computer_input
   you_win
 end
 
-if user_input !=
+if user_input != computer_input
   you_lose(computer_input)
 end
 
