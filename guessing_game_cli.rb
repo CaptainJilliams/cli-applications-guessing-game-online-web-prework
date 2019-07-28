@@ -39,8 +39,4 @@ else
   puts "Invalid Value."
 end
 
-if user_input == "exit"
-  exit_time
-end
-
 end
