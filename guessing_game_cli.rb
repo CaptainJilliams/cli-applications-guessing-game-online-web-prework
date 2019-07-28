@@ -27,6 +27,9 @@ end
 def run_guessing_game
 prompt_user
 user_input = user_number
+computer_input = comp_number
+
+
 
 
 end
