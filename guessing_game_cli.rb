@@ -18,6 +18,10 @@ def you_lose(correct_num)
   puts "Sorry! The computer guessed #{correct_num}."
 end
 
+def exit_time
+  puts "Goodbye!"
+end
+
 #------------------------------------------#
 
 def run_guessing_game
