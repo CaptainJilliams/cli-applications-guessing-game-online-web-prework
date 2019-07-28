@@ -35,4 +35,8 @@ else
   you_lose(comp_number)
 end
 
+if user_input == "exit"
+  exit_time
+end
+
 end
