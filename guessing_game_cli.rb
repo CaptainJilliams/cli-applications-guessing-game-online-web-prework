@@ -29,12 +29,10 @@ prompt_user
 user_input = user_number
 computer_input = comp_number
 
-if user_input != computer_input
-  you_lose(comp_number)
-elsif user_input == "exit"
-  exit_time
-else
+if user_input == computer_input
   you_win
+else
+  you_lose(comp_number)
 end
 
 end
