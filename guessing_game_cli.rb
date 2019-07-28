@@ -29,7 +29,7 @@ prompt_user
 user_input = user_number
 computer_input = comp_number
 
-
+if user_input == computer_input
 
 
 end
