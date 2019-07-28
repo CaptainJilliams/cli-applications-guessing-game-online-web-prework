@@ -31,6 +31,9 @@ computer_input = comp_number
 
 
 while user_input != computer_input
+  you_lose(computer_input)
+  break if user_input == computer_input
+  you_win
 
 #if user_input == computer_input
 #  you_win
