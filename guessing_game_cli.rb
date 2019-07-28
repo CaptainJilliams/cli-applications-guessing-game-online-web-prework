@@ -27,6 +27,7 @@ end
 def run_guessing_game
 prompt_user
 user_input = user_number
+user_exit_input = user_number.to_s
 computer_input = comp_number
 
 if user_input.to_s == "exit"
