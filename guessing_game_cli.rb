@@ -31,10 +31,10 @@ computer_input = comp_number
 
 if user_input == computer_input
   you_win
-elsif user_input != computer_input
-  you_lose(computer_input)
+elsif user_input == computer_input
+  you_win
 else
-  puts "Invalid Value."
+  you_lose(computer_input)
 end
 
 end
