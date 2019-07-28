@@ -30,7 +30,9 @@ user_input = user_number
 computer_input = comp_number
 
 if user_input == computer_input
-  
+  you_win
+elsif user_input == "exit"
+  exit_time
 
 
 end
