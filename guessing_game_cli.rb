@@ -10,6 +10,10 @@ def user_number
   return gets.chomp
 end
 
+def you_win
+  
+end
+
 def you_lose(correct_num)
   puts "Sorry! The computer guessed #{correct_num}."
 end
