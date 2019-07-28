@@ -11,7 +11,8 @@ def user_number
 end
 
 def you_lose(correct_num)
-  
+  puts "Sorry! The computer guessed #{correct_num}."
+end
 
 #------------------------------------------#
 
